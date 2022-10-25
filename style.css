@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+nav {
+	width: 100%;
+	height: 80px;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo {
+ 	width: 80px;
+ 	height: 100%;
+ 	/*background-color: bisque;*/
+ }
+
+.logo img {
+	width: 100%;
+	height: 100%;
+
+	object-fit: contain;
+}
+
+ .menu {
+ 	width: 500px;
+ 	height: 100%;
+ 	/*background-color: burlywood;*/
+ }
+
+ .menu ul {
+ 	width: 100%;
+ 	height: 100%;
+ 	list-style-type: none;
+ 	text-transform: uppercase;
+ 	letter-spacing: 1px;
+ 	color: #959c96;
+ 	font-size: 0.8rem;
+
+
+ 	display: flex;
+ 	justify-content: space-evenly;
+ 	align-items: center;
+
+ }
+
+.menu ul li a {
+	color: #959c96;
+	text-decoration: none;
+	padding: 10px 20px;
+
+	transition: all 0.2s;
+}
+
+.menu ul li a:hover {
+	color: #fff;
+	background-color: #059696;
+
+}
+
+
+ .chat {
+ 	width: 100px;
+ 	height: 100%;
+ 	/*background-color: aquamarine;*/
+ }
+
+.chat p {
+	width: 45px;
+	height: 20px;
+	color: green;
+	font-size: 0.8rem;
+	text-align: center;
+	/*line-height: 80px;*/
+	/*background-color: red;*/
+	cursor: pointer;
+
+	border-bottom: 2px solid #059696;
+	margin-top: 20px;	
+}
+
+#home {
+	width: 100%;
+	height: 600px;
+	/*background-color: brown;*/
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#home .model {
+	width: 500px;
+	height: 500px;
+	/*background-color: bisque;*/
+}
+
+#home .model img{
+	width: 100%;
+	height: 100%;
+}
+
+#home .text {
+	width: 500px;
+	height: 250px;
+	/*background-color: steelblue;*/
+}
+
+#home .text h1 {
+	font-size: 3rem;
+	letter-spacing: 1px;
+}
+
+#home .text p {
+	color: #059696;
+	margin: 10px 0 25px 0;
+}
+
+#home .text a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #059696;
+	border-radius: 20px;
+
+	transition: all 0.3s ;
+}
+
+
+#home .text a:hover {
+	background-color: #57d965;
+}
+
+#skills {
+	width: 100%;
+	height: 500px;
+	/*background-color: steelblue;*/
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#skills .skillcontent {
+	width: 400px;
+	height: 450px;
+	/*background-color: red;*/
+}
+
+#skills .skillcontent span {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #04c998;
+}
+
+#skills .skillcontent h1 {
+	font-size: 3rem;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+}
+
+
+#skills .skillcontent .skillcontainer {
+	width: 100%;
+	height: 100px;
+	/*background-color: antiquewhite;*/
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#skills .skillcontent .skillcontainer .icons {
+	width: 50px;
+	height: 50px;
+	background-color: #ebf5ee;
+	border-radius: 50%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-right: 20px;
+}
+
+.skillcontent .skillcontainer i {
+	margin: 0px 30px;
+}
+
+.fa-html5 {
+	color: red;
+	font-size: 1.3rem;
+}
+
+.fa-css3-alt {
+	color: blue;
+	font-size: 1.3rem;
+}
+
+.fa-square-js {
+	color: tomato;
+	font-size: 1.3rem;
+}
+
+.skillcontent .skillcontainer .skilltext h3 {
+	font-size: 1rem;
+	margin-bottom: 10px;
+}
+
+.skillcontent .skillcontainer .skilltext p {
+	font-size: 0.8rem;
+
+}
+
+#skills .skillphoto {
+	width: 700px;
+	height: 500px;
+	/*background-color: orange;*/
+}
+
+.skillphoto img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+#recent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#recent .recenthead h3 {
+	color: #04c998;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+#recent .recenthead h1 {
+	font-size: 3rem;
+	letter-spacing: 2px;
+}
+
+#recent a {
+	text-decoration: none;
+	background-color: #059696;
+	color: #fff;
+	border-radius:20px;
+
+	padding: 5px 40px;
+
+	transition: all 0.2s;
+}
+
+#recent a:hover {
+	background-color: #57d965;
+}
+
+
+#client {
+	width: 100%;
+	height: 600px;
+	/*background-color: burlywood;*/
+
+	margin-top: 50px;
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+}
+
+#client h3 {
+	color: #04c998;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#client h1 {
+	font-size: 3rem;
+	letter-spacing: 1px;
+}
+
+#client .clientcontainer {
+	width: 80%;
+	height: 400px;
+	/*background-color: aliceblue;*/
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#client .clientcontainer .clientbox {
+	width: 300px;
+	height: 350px;
+	/*background-color: aquamarine;*/
+	box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+}
+
+#client .clientcontainer .clientbox:hover {
+	background-color: #05969680;
+	/* transform: ; */
+}
+
+.clientcontainer .clientbox img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	object-fit: cover;
+} 
+
+.clientcontainer .clientbox div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*letter-spacing: -2.2px;*/
+}
+
+.fa-star {
+	color: goldenrod;
+}
+
+.clientcontainer .clientbox p {
+	font-size: 0.9rem;
+	text-align: center;
+
+	width: 235px;
+	height: 85px;
+	/*background-color: brown;*/
+	overflow: hidden;
+
+}
+
+.clientcontainer .clientbox a {
+	color: #fff;
+	background-color: #059696;
+	padding: 8px 15px;
+	text-decoration: none;
+}
+
+#contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	margin-top: -100px;
+}
+
+#contact img {
+	width: 400px;
+	height: 500px;
+	/* background-color: brown; */
+
+	padding-top: 150px;
+}
+
+#contact .inputbox  {
+	width: 350px;
+	height: 50px;
+	/* background-color: burlywood; */
+	border-radius: 30px;
+	box-shadow: 0px 0px 5px 3px rgba(128, 69, 69, 0.2);
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+
+#contact .inputbox .input {
+	text-align: center;
+	border: none;
+	outline: none;
+
+
+}
+
+#contact .inputbox a {
+	padding: 5px 20px;
+	background-color: #059696;
+	border-radius: 30px;
+	color: #fff;
+	text-decoration: none;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	/* background-color: aqua; */
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
